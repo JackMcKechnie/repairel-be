@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_product_ethics_and_sustainabilities",
+  "info": {
+    "name": "ethics_and_sustainability",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "vegan": {
+      "type": "integer",
+      "required": true
+    },
+    "wages": {
+      "type": "integer",
+      "required": true
+    },
+    "recyclability": {
+      "type": "integer",
+      "required": true
+    },
+    "vegan_description": {
+      "type": "text",
+      "required": true
+    },
+    "wages_description": {
+      "type": "text",
+      "required": true
+    },
+    "recycalbility_description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

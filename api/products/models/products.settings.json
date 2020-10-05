@@ -47,7 +47,10 @@
       "required": true
     },
     "Size": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true,
+      "min": 3,
+      "max": 12
     }
   }
 }

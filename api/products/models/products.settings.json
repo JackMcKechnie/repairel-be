@@ -46,9 +46,8 @@
       "type": "boolean",
       "required": true
     },
-    "variants": {
-      "via": "product",
-      "collection": "stock"
+    "Size": {
+      "type": "decimal"
     }
   }
 }

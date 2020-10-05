@@ -17,18 +17,6 @@
     "recyclability": {
       "type": "integer",
       "required": true
-    },
-    "vegan_description": {
-      "type": "text",
-      "required": true
-    },
-    "wages_description": {
-      "type": "text",
-      "required": true
-    },
-    "recycalbility_description": {
-      "type": "text",
-      "required": true
     }
   }
 }

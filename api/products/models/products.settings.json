@@ -45,6 +45,10 @@
     "new": {
       "type": "boolean",
       "required": true
+    },
+    "variants": {
+      "via": "product",
+      "collection": "stock"
     }
   }
 }

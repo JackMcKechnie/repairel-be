@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stocks",
+  "info": {
+    "name": "Stock"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "size": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "product": {
+      "model": "products",
+      "via": "variants"
+    }
+  }
+}

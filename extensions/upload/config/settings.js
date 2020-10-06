@@ -1,5 +1,4 @@
 module.exports = {
-  s3: {
     provider: "aws-s3",
     providerOptions: {
       accessKeyId: process.env.AWSAccessKeyId,
@@ -9,6 +8,5 @@ module.exports = {
         Bucket: "repairel-images",
       },
     },
-  },
 };
 

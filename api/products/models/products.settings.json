@@ -51,6 +51,10 @@
       "required": true,
       "min": 3,
       "max": 12
+    },
+    "stock": {
+      "type": "boolean",
+      "required": true
     }
   }
 }

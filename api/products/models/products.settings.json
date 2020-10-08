@@ -36,12 +36,6 @@
       "type": "integer",
       "required": true
     },
-    "ethics_and_sustainability": {
-      "type": "component",
-      "repeatable": false,
-      "component": "product.ethics-and-sustainability",
-      "required": true
-    },
     "new": {
       "type": "boolean",
       "required": true

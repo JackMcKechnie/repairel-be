@@ -6,17 +6,41 @@
   },
   "options": {},
   "attributes": {
-    "vegan": {
+    "material": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 5,
+      "min": 1
     },
-    "wages": {
+    "material_processing": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 5,
+      "min": 1
     },
-    "recyclability": {
+    "manufacturing": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "assembly": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "use": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "disposal": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
     }
   }
 }

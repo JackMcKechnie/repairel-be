@@ -49,6 +49,12 @@
     "stock": {
       "type": "boolean",
       "required": true
+    },
+    "ethics_and_sustainability": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ratings.ethics-and-sustainability",
+      "required": true
     }
   }
 }
